@@ -1,0 +1,30 @@
+﻿<Settings>
+  <!-- Where to look for WTV files-->
+  <ScanPath>z:\</ScanPath>
+  <!--Should newer shows be kept and older shows deleted? -->
+  <DateBias>true</DateBias>
+  <!-- Should generic shows (shows without unique episode titles) be processed and potentially deleted?-->
+  <DeleteGeneric>true</DeleteGeneric>
+  <!-- 
+  If a show is "generic" IE: has no unique title and it is in this list
+  it will not be considered for deletion.
+  -->
+  <ExcludedGenericShow>Bob the</ExcludedGenericShow>  
+  <ExcludedGenericShow>The Daily Show</ExcludedGenericShow>
+  <ExcludedGenericShow>Colbert</ExcludedGenericShow>
+  <ExcludedGenericShow>Conan</ExcludedGenericShow>
+  <ExcludedGenericShow>KING 5</ExcludedGenericShow>
+  <ExcludedGenericShow>Maddow</ExcludedGenericShow>
+  <ExcludedGenericShow>How It's Made</ExcludedGenericShow>
+  <ExcludedGenericShow>Ted Talks</ExcludedGenericShow>
+  <ExcludedGenericShow>Mars</ExcludedGenericShow>
+  <ExcludedGenericShow>Martian</ExcludedGenericShow>
+  <!-- 
+  When determining which duplicates to keep
+  these channels will be prefered over others  
+  -->
+  <PreferredChannel>NICKPHD</PreferredChannel>
+  <PreferredChannel>TOONHD</PreferredChannel>
+  <!--Log file -->
+  <log>d:\log.txt</log>
+</Settings>
